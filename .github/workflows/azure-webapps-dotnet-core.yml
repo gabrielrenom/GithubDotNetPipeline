@@ -31,5 +31,8 @@ jobs:
       - name: Publish
         run: dotnet publish ./GithubDotNetPipeline.sln --configuration Release --no-build
           
-        
+                
+      - name: Deployment
+        uses: actions/webapps-deploy@v2
+
       
