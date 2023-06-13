@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OxveHgCo0y3/dfbA4wISGddRuA8h9U316kqWYJWhXlA=",
+  "Source": "GithubDotNetPipeline",
+  "BasePath": "_content/GithubDotNetPipeline",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
