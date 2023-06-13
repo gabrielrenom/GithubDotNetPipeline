@@ -21,9 +21,9 @@ jobs:
         run: dotnet restore ./GithubDotNetPipeline.sln
         
       - name: Build
-        run: dotnet build ./GithubDotNetPipeline.sln Release --no-restore
+        run: dotnet build ./GithubDotNetPipeline.sln --configuration Release --no-restore
       
       - name: Publish
-        run: dotnet publish ./GithubDotNetPipeline.sln Release --no-build
+        run: dotnet publish ./GithubDotNetPipeline.sln --configuration Release --no-build
         
       
